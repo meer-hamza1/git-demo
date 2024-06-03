@@ -1,3 +1,3 @@
 # git-demo
 this is my first project
-author-meer hamza
+author-meer (hamza)
