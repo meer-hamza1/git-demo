@@ -21,7 +21,7 @@ function createcard(title,cname, views , monthsold, duration, thumbnail){
     <p>${cname} . ${viewstr} views . ${monthsold} months ago</p></div>
 </div>`
 
-document.querySelector(".container").innerhtml = document.querySelector(".container").innerhtml + html
+document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html
 }
 
 createcard("Dynamic Website Builder | Sigma Web Development Course - Tutorial #73" , "codewithHarry", 560000, 7,"31:22" , "https://i.ytimg.com/an_webp/KtL-SQ20Q0s/mqdefault_6s.webp?du=3000&sqp=CNH0kbMG&rs=AOn4CLBPPEQbc9zZMsjdruDjHNiDO4ysqA")
