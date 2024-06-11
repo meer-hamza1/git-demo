@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: flex;
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+        }
+        .image img{
+            width: 200px;
+        }
+        .text h1, p{
+            padding: 2px  10px;
+        }
+        .image{
+            position: relative;
+        }
+        .image .capsule{
+            position: absolute;
+            bottom: 4px;
+            z-index: 10;
+            right: 5px;
+            background-color: rgb(61, 60, 60);
+            color: white;
+            opacity: 0.9;
+            padding: 2px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://fastly.picsum.photos/id/941/200/300.jpg?hmac=tSztWslp5Hm2jEg1UjAvvVNsaDT3dsPAEZ5lQ_yhNKA" alt="">
+                <div class="capsule">31:06</div>
+            </div>
+            <div class="text"><h1>Dynamic Website Builder | Sigma Web Development Course - Tutorial #73</h1>
+            <p>CodeWithHarry . 727k views . 2 months ago</p></div>
+        </div>
+    </div>
+    <script src="web.js"></script>
+</body>
+</html>
